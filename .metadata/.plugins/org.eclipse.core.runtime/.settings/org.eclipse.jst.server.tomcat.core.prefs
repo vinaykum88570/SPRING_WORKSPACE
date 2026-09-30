@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+locationorg.eclipse.jst.server.tomcat.runtime.100=C\:/ApacheTomcate/Tomcate10/apache-tomcat-10.0.27
+locationorg.eclipse.jst.server.tomcat.runtime.101=C\:/ApacheTomcate/Tomcate10.1/apache-tomcat-10.1.28
+locationorg.eclipse.jst.server.tomcat.runtime.50=C\:/ApacheTomcate/Tomcate_5/jakarta-tomcat-5.0.28
+locationorg.eclipse.jst.server.tomcat.runtime.90=C\:/ApacheTomcate/apache-tomcat-9.0.115

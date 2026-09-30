@@ -1,0 +1,27 @@
+package com.vinay.service;
+
+
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import com.vinay.response.PaymentResponse;
+
+@Service
+public class GoogleService {
+
+	public PaymentResponse getPaymentData(String id) {
+	
+		String URL = "http://localhost:9958/SpringMVCResponseEntity/track/payment/"+id;	
+		
+//		HttpHeaders httpHeaders = new HttpHeaders();
+		
+		RestTemplate templete = new RestTemplate();
+		ResponseEntity<PaymentResponse> response = templete.exchange(URL, HttpMethod.GET, null, PaymentResponse.class);
+		
+		return response.getBody();
+		}
+	
+}

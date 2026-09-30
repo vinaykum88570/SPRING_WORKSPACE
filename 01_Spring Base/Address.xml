@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<beans xmlns="http://www.springframework.org/schema/beans" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation=" 
+        http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans.xsd"> 
+ 
+ <bean id="addr" class="com.constructor.injection.AddressDetails"> 
+  <property name="flatNo" value="333"></property> 
+  <property name="houseName" value="Lotus Homes"></property> 
+  <property name="mobile" value="91822222"></property> 
+ </bean> 
+ <bean id="accountDeatils" 
+  class="com.constructor.injection.AccountDetails"> 
+  <constructor-arg name="name" value="Dilip" /> 
+  <constructor-arg name="balance" value="500.00" /> 
+  <constructor-arg name="mobiles"> 
+   <set> 
+    <value>8826111377</value> 
+    <value>8826111377</value> 
+    <value>+91-88888888</value> 
+    <value>+232388888888</value> 
+   </set> 
+  </constructor-arg> 
+  <constructor-arg name="customerAddress" ref="addr" />  
+ </bean> 
+</beans> 

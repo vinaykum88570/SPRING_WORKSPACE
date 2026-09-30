@@ -1,0 +1,13 @@
+INDEX VERSION 1.134
+C:\Users\admin\SPRING_FW_WORKSPACE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3873296126.index
+\ROT_Spring_MVC\src\main\resources
+C:\Users\admin\SPRING_FW_WORKSPACE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1608443533.index
+\ROT_Spring_MVC\src\main\java
+C:\Users\admin\SPRING_FW_WORKSPACE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2257481665.index
+\SpringMVCProject\src\main\java
+C:\Users\admin\SPRING_FW_WORKSPACE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\910255481.index
+\ROT_SpringMVCProject\src\main\resources
+C:\Users\admin\SPRING_FW_WORKSPACE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1340438767.index
+\ABC\src\main\resources
+C:\Users\admin\SPRING_FW_WORKSPACE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3475034513.index
+\SpringMVC_JPA\src\main\resources

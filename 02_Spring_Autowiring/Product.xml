@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<beans xmlns="http://www.springframework.org/schema/beans" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation=" 
+        http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans.xsd"> 
+
+           
+<beans> 
+ <bean id="product" class="com.spring.autowire.no.Product"> 
+  <property name="productId" value="101"></property> 
+  <property name="productName" value="Lenevo Laptop"></property> 
+ </bean>
+  
+ <bean id="order" class="com.spring.autowire.no.Order" autowire="no"> 
+  <property name="orderId" value="order1234"></property> 
+  <property name="orderValue" value="33000.00"></property> 
+ </bean> 
+</beans>
+</beans>
+		

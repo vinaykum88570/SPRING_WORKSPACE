@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\admin\SPRING_FW_WORKSPACE\Spring_MVC_JPA"/>
+			<item value="C:\Users\admin\SPRING_FW_WORKSPACE\SpringJPA_2\src\main\java\com\vinay\operations\PatientApplication2.java"/>
+			<item value="C:\Users\admin\SPRING_FW_WORKSPACE\CC_AutoWiring_Types"/>
+			<item value="C:\Users\admin\SPRING_FW_WORKSPACE\ROT_Spring_MVC\pom.xml"/>
+			<item value="C:\Users\admin\SPRING_FW_WORKSPACE\ROT_SpringHibernate_ORM\src\main\java\com\spring\EmployeeDao.java"/>
+			<item value="C:\Users\admin\SPRING_FW_WORKSPACE\ROT_SpringAutoWiring_XML\src\main\java\com\spring\OrderTest.java"/>
+			<item value="C:\Users\admin\SPRING_FW_WORKSPACE\ROT_SpringJDBC\src\main\java\com\spring\dao\AccountTest.java"/>
+			<item value="C:\Users\admin\SPRING_FW_WORKSPACE\A_DemoBean"/>
+			<item value="C:\Users\admin\SPRING_FW_WORKSPACE\Spring_MVC_App\pom.xml"/>
+			<item value="C:\Users\admin\SPRING_FW_WORKSPACE\EE_Spring_Autowired_Qualifier_Primary"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="SpringSecurity"/>
+			<item value="Amazon"/>
+			<item value="com.spring"/>
+			<item value="SpringMVCResponseEntity"/>
+			<item value="SpringMVC_JPA"/>
+			<item value="Swiggy"/>
+			<item value="ABC"/>
+			<item value="MVC_App"/>
+			<item value="SpringMVCProject"/>
+			<item value="Spring_MVC"/>
+			<item value="com.SpringMVC"/>
+			<item value="Spring_MVC_App"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="SpringSecurity"/>
+			<item value="Amazon"/>
+			<item value="SpringRestServicesAndAPIIntegration"/>
+			<item value="SpringMVCResponseEntity"/>
+			<item value="SpringMVC_JPA"/>
+			<item value="Swiggy"/>
+			<item value="ABC"/>
+			<item value="MVC_App"/>
+			<item value="SpringMVCProject"/>
+			<item value="Spring_MVC"/>
+			<item value="Spring_MVC_App"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="836"/>
+		<item key="x" value="987"/>
+		<item key="y" value="144"/>
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+     <bean id ="product" class="com.spring.map.ProductDetails">
+      	<property name="products">
+      		<map>
+      			<entry key="monitor" value="5000"/>
+      			<entry key="keybordor" value="500"/>
+      			<entry key="mouse" value="3000"/>
+      			<entry key="speakers" value="1500"/>
+      		</map>
+      	</property>
+     </bean>
+     	
+
+</beans>

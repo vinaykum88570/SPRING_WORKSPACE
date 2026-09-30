@@ -1,0 +1,56 @@
+package com.swiggy.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.swiggy.dto.UserLogin;
+import com.swiggy.dto.UserRegister;
+import com.swiggy.service.JWTTokenUtil;
+import com.swiggy.service.UserService;
+
+@RestController
+public class Controller {
+
+	@Autowired
+	UserService service;
+	
+	@Autowired
+	JWTTokenUtil jwtTokenUtil;
+	
+	// Register Opertaion
+	@PostMapping("/create/user")
+	public String registerUser(@RequestBody UserRegister request) {
+		String result = service.registerUser(request);
+		return result;
+	}
+	
+	// login Operation : Integreate Security Layer + JWT token
+	@PostMapping("/login/user")
+	public String loginUser(@RequestBody UserLogin request) {
+		
+		// we need to pass Credentials to the security layer 
+		// Internally , Spring Security Layer Validates User Credentials.
+		// If user is valid and certified by Security ,Generates token and attach as part of security.
+		   //-> I nternally Security Layer Connect to DB. cheaks for username and password 
+		// Incase User Is Invalid , then we will send a message like Invalid credentials
+		
+		String result = service.loginUser(request);
+		return result;
+	}
+	
+	@GetMapping("/get/token")
+	public String getToken() {
+		
+		return jwtTokenUtil.createToken("dilip@gmail.com");
+	}
+	
+	@GetMapping("/validate/token")
+	public boolean validateToken(@RequestHeader String token) {
+		
+		return jwtTokenUtil.isValidtoken("dilip@gmail.com", token);
+	}
+}

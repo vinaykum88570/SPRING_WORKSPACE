@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<beans xmlns="http://www.springframework.org/schema/beans" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation=" 
+        http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans.xsd"> 
+
+		<bean id="studentOne" class="com.Injecting.collection.Students3"> 
+  <property name="stuName" value="Dilip"></property> 
+  <property name="studId" value="101"></property> 
+  <property name="avgOfMarks" value="99.88"></property> 
+  <property name="passedOutYear" value="2022"></property> 
+  <property name="isSelected" value="true"></property> 
+  <property name="emails"> 
+   <list> 
+    <value>dilip@gmail.com</value> 
+    <value>laxmi@gmail.com</value> 
+    <value>dilip@gmail.com</value> 
+   </list> 
+  </property> 
+  <property name="mobileNumbers"> 
+   <set> 
+    <value>8826111377</value> 
+    <value>8826111377</value> 
+    <value>+1234567890</value> 
+   </set> 
+  </property> 
+  <property name="subMarks"> 
+   <map> 
+    <entry key="maths" value="88" /> 
+    <entry key="science" value="66" /> 
+    <entry key="english" value="44" /> 
+   </map> 
+  </property> 
+ </bean> 
+</beans>
+		

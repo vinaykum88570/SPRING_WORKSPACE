@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;TestController.java&apos; to &apos;Spring _MVC/src/main/java/com.mvc.controller&apos;&#x0D;&#x0A;- Original project: &apos;Spring _MVC&apos;&#x0D;&#x0A;- Destination element: &apos;Spring _MVC/src/main/java/com.mvc.controller&apos;&#x0D;&#x0A;- Original element: &apos;com.mvc.config.TestController.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java&lt;com.mvc.controller" element1="/src\/main\/java&lt;com.mvc.config{TestController.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1766396000235" units="1" version="1.0"/>
+</session>

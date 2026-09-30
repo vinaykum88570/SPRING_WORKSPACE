@@ -1,0 +1,15 @@
+
+Dec 22, 2025 14:31:04.16 NEW SESSION
+Dec 22, 2025 14:31:04.34 Created TensorFlow Lite XNNPACK delegate for CPU.
+Dec 22, 2025 14:31:06.67 [1740:2852:1222/143106.671:ERROR:google_apis\gcm\engine\registration_request.cc:275] Registration URL fetching failed.
+Dec 22, 2025 14:31:18.87 Created TensorFlow Lite XNNPACK delegate for CPU.
+Dec 22, 2025 14:31:21.36 [6716:9352:1222/143121.363:ERROR:google_apis\gcm\engine\registration_request.cc:275] Registration URL fetching failed.
+Dec 22, 2025 14:31:49.32 [6716:9352:1222/143149.324:ERROR:google_apis\gcm\engine\registration_request.cc:275] Registration URL fetching failed.
+Dec 22, 2025 14:32:33.85 [6716:9352:1222/143233.855:ERROR:google_apis\gcm\engine\registration_request.cc:275] Registration URL fetching failed.
+Dec 22, 2025 14:35:31.58 Created TensorFlow Lite XNNPACK delegate for CPU.
+Dec 22, 2025 14:35:37.80 [3728:12332:1222/143537.801:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Dec 22, 2025 14:35:58.38 [3728:12332:1222/143558.381:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Dec 22, 2025 14:36:51.53 [3728:12332:1222/143651.530:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Dec 22, 2025 14:38:41.42 [3728:12332:1222/143841.424:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Dec 22, 2025 14:42:29.85 [3728:12332:1222/144229.856:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Dec 22, 2025 14:49:38.23 [3728:12332:1222/144938.237:ERROR:google_apis\gcm\engine\registration_request.cc:275] Registration URL fetching failed.

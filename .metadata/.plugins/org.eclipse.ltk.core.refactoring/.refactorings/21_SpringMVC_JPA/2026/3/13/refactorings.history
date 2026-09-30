@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.swiggy&apos; to &apos;25_SpringSecurity/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;21_SpringMVC_JPA&apos;&#x0D;&#x0A;- Destination element: &apos;25_SpringSecurity/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;21_SpringMVC_JPA/src/main/java/com.swiggy&apos;" description="Copy package" destination="=25_SpringSecurity/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.swiggy" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1774336587662" version="1.0"/>
+</session>

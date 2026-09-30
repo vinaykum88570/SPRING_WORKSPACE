@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+        
+<beans>
+
+   
+ <bean id="addr" class="com.Injecting.collection.Address">
+   <property name="city" value="Hyd"></property>
+   <property name="state" value="TS"></property>
+   <property name="country" value="IND"></property>
+   <property name="pincode" value="431714"></property>
+ </bean>
+ 
+ <bean id="student1" class="com.Injecting.collection.Students">
+ 	<property name="studentId" value="100"></property>
+ 	<property name="studentName" value="Dilip Singh"></property>
+ 	<property name="mobileNumber" value="4317653214"></property>
+ 	<property name="addres" ref="addr"></property>
+ </bean>
+
+</beans>

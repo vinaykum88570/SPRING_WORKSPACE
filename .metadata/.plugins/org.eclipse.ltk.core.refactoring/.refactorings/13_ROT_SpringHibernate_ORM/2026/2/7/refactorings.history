@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Employee.java&apos; to &apos;ROT_SpringHibernate_ORM/src/main/java/com.spring&apos;&#x0D;&#x0A;- Original project: &apos;ROT_SpringHibernate_ORM&apos;&#x0D;&#x0A;- Destination element: &apos;ROT_SpringHibernate_ORM/src/main/java/com.spring&apos;&#x0D;&#x0A;- Original element: &apos;Employee.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.spring" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;{Employee.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1770699871999" units="1" version="1.0"/>
+</session>

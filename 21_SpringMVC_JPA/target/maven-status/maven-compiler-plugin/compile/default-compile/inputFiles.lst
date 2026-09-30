@@ -1,0 +1,14 @@
+C:\Users\admin\SPRING_FW_WORKSPACE\SpringMVC_JPA\src\main\java\com\swiggy\user\response\UserRegisterResponse.java
+C:\Users\admin\SPRING_FW_WORKSPACE\SpringMVC_JPA\src\main\java\com\swiggy\order\request\OrderRequest.java
+C:\Users\admin\SPRING_FW_WORKSPACE\SpringMVC_JPA\src\main\java\com\swiggy\order\repository\OrderRepository.java
+C:\Users\admin\SPRING_FW_WORKSPACE\SpringMVC_JPA\src\main\java\com\swiggy\MVCConfiguration.java
+C:\Users\admin\SPRING_FW_WORKSPACE\SpringMVC_JPA\src\main\java\com\swiggy\SpringWebInitilization.java
+C:\Users\admin\SPRING_FW_WORKSPACE\SpringMVC_JPA\src\main\java\com\swiggy\SpringJpaConfiguration.java
+C:\Users\admin\SPRING_FW_WORKSPACE\SpringMVC_JPA\src\main\java\com\swiggy\user\request\UserRegisterRequest.java
+C:\Users\admin\SPRING_FW_WORKSPACE\SpringMVC_JPA\src\main\java\com\swiggy\user\service\UserService.java
+C:\Users\admin\SPRING_FW_WORKSPACE\SpringMVC_JPA\src\main\java\com\swiggy\user\entity\SwiggyUsers.java
+C:\Users\admin\SPRING_FW_WORKSPACE\SpringMVC_JPA\src\main\java\com\swiggy\user\controller\UserController.java
+C:\Users\admin\SPRING_FW_WORKSPACE\SpringMVC_JPA\src\main\java\com\swiggy\order\service\OrderService.java
+C:\Users\admin\SPRING_FW_WORKSPACE\SpringMVC_JPA\src\main\java\com\swiggy\user\repository\UserRepository.java
+C:\Users\admin\SPRING_FW_WORKSPACE\SpringMVC_JPA\src\main\java\com\swiggy\order\controller\OrderController.java
+C:\Users\admin\SPRING_FW_WORKSPACE\SpringMVC_JPA\src\main\java\com\swiggy\order\entity\SwiggyOrders.java
